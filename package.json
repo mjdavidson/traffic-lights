@@ -1,0 +1,14 @@
+{
+  "name": "traffic-lights",
+  "version": "1.0.0",
+  "description": "change your philips hue lights like a traffic light",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Matt Davidson",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.1.2"
+  }
+}
