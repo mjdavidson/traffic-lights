@@ -30,7 +30,13 @@ const traffic = async () => {
 
 const change = (hue, time, numberOfLights) => {
   return new Promise((resolve, reject) => {
-    const body = JSON.stringify({ on: true, bri: 255, sat: 255, hue });
+    const body = JSON.stringify({
+      on: true,
+      bri: 255,
+      sat: 255,
+      transitiontime: 0,
+      hue
+    });
     setTimeout(() => {
       console.log('changing to', hue);
       for (let lamp = 1; lamp < numberOfLights + 1; lamp++) {
