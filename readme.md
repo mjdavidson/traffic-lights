@@ -1,4 +1,6 @@
-# Traffic Lights 🚦
+# traffic lights 🚦
+
+## simple app to mimic traffic lights with your philips hue.
 
 change ip address and username to match your philips hue bridge
 
